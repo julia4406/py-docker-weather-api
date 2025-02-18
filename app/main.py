@@ -14,10 +14,10 @@ def get_weather() -> None:
     response = requests.get(request_url).json()
 
     message = (
-        f"{response["location"]["name"]}/{response["location"]["country"]} "
-        f"{response["location"]["localtime"]} Weather: "
-        f"{response["current"]["temp_c"]} Celsius, "
-        f"{response["current"]["condition"]["text"]}"
+        f"{response['location']['name']}/{response['location']['country']} "
+        f"{response['location']['localtime']} Weather: "
+        f"{response['current']['temp_c']} Celsius, "
+        f"{response['current']['condition']['text']}"
     )
 
     print(message)
