@@ -3,7 +3,7 @@ LABEL maintainer="julia4406@gmail.com"
 
 ENV PYTHONUNBUFFERED 1
 
-WORKDIR weather/
+WORKDIR /weather
 
 COPY requirements.txt requirements.txt
 
