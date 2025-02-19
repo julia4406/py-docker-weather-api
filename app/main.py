@@ -3,8 +3,8 @@ import requests
 
 
 def get_weather(
-        url: str="http://api.weatherapi.com/v1/current.json",
-        city: str="Paris"
+        url: str = "http://api.weatherapi.com/v1/current.json",
+        city: str = "Paris"
 ) -> None:
     print("Performing request to Weather API for city Paris...")
 
